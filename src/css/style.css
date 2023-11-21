@@ -1,11 +1,13 @@
 body {
-    padding: 40px;
+      
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     height: 100%;
-    width: 90%;
+    width: 100%;
     background-image: url("/src/images/bg-desktop.svg");
     background-color: var(--primary-background1);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -18,14 +20,7 @@ body {
 }
 
 .title-huddle {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    padding: 20px;
-    font-size: 20px;
-    color: #ffffff;
-
-
-
+    padding: 20px 20px;
 }
 
 
@@ -33,13 +28,14 @@ body {
 .section-introduction-huddle {
     display: flex;
     height: 90%;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
 
 }
 
 .image-introduction {
     padding: 20px;
+    margin: 10px;
 
 }
 
@@ -54,7 +50,7 @@ body {
 .introduction-huddle p {
     color: #ffffff;
     font-weight: 400;
-    padding: 30px;
+    padding: 50px;
     width: 100%;
 
 
@@ -62,47 +58,58 @@ body {
 
 .btn-register button {
     position: relative;
-    padding: 3cqh;
+    padding: 10px 40px;
     justify-content: center;
     color: gray;
-    border-radius: 50px;
-    width: 50%;
-    opacity: 2;
-
-
-
+    border: 1px solid #ffffff;
+    border-radius: 10%;
+    transition: 0.3s ease;
+    
+   
+    
 
 }
 
 .btn-register button:hover {
     background-color: var(--primary-background2);
-    opacity: 0.9;
-    transition: background-color 0.05;
+    color:#ffffff;
+    transition: background-color 0.05 ease;
     cursor: pointer;
+    
 }
 
-.footer-social-media-icons {
+
+
+.footer-social-media-icons.social-media-icons{
+    display: flex;
+}
+.social-media-icons{
     display: flex;
     justify-content: flex-end;
-
-
+    align-items: center;
+    padding: 20px;
+       
+    
 }
 
-.fa-brands {
-    padding: 10px;
+.social-media-icons li a i{
+    padding: 20px;
+    margin: 10px;
     color: #ffffff;
+    border: 1px solid #ffffff;
     border-radius: 50%;
-
-
+    transition: 0.3s ease-in-out;
+    
+    
 }
 
-.footer-social-media-icons a:hover {
-    background-color: var(--primary-background2);
-    opacity: 0.9;
-    transition: background-color 0.05;
+.footer-social-media-icons li a i:hover {
+    border: 1px solid var(--primary-background2);
     cursor: pointer;
-    border-radius: 50%;
+    color: var(--primary-background2);
+        
 }
 
 /* MEDIA QUERY */
+
 
