@@ -1,47 +1,88 @@
-
 @media (max-width: 900px) {
 
-    .title-huddle img{
-        width: 120px;
-        height: 58px;
-    }
-   .section-introduction-huddle{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;        
-    }
+     .title-huddle img {
+          width: 120px;
+          height: 58px;
+     }
 
-   .image-introduction img{
-        display: flex;
-        justify-content: center;
-        width: 325px;
-    }
+     .section-introduction-huddle {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+     }
 
-   .introduction-huddle{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+     .image-introduction img {
+          display: flex;
+          justify-content: center;
+          width: 325px;
+     }
+
+     .introduction-huddle {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
 
 
-   }
+     }
 
-   .introduction-huddle h2{
-        font-size: 18px;
-   }
-   .footer-social-media-icons .social-media-icons{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-   }
-   .social-media-icons li a i{
-        padding: 10px;
-        margin: 10px;
-        color: #ffffff;
-           
-    }   
+     .introduction-huddle h2 {
+          font-size: 18px;
+     }
+
+     .footer-social-media-icons .social-media-icons {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+
+     .social-media-icons li a i {
+          padding: 10px;
+          margin: 10px;
+          color: #ffffff;
+
+     }
+
+
+
+
+
+}
+
+
+@media (max-width: 1400px){
+     .title-huddle img{
+          width: 50%;
+          margin: 20px;
+          padding: 10px;
+     }
+
+     .section-introduction-huddle{
+          display: flex;
+          justify-content: center;
+          align-items: center;         
+               
+     }
+
+     .image-introduction img{
+          width: 400px;
+          padding: 10px;
         
+     }
 
-    
+     .introduction-huddle {
+
+          width: 400px;
+          padding: 10px;
+
+     }
+
+     .footer-social-media-icons{
+          display: flex;
+          justify-content: center;
+          margin: 0px;
+
+     }
+
 }
